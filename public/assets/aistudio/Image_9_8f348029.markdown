@@ -1,0 +1,211 @@
+---
+name: TaskFlow Narrative
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#434655'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#737686'
+  outline-variant: '#c3c6d7'
+  surface-tint: '#0053db'
+  primary: '#004ac6'
+  on-primary: '#ffffff'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#b4c5ff'
+  secondary: '#516070'
+  on-secondary: '#ffffff'
+  secondary-container: '#d5e4f8'
+  on-secondary-container: '#576676'
+  tertiary: '#006242'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#007d55'
+  on-tertiary-container: '#bdffdb'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#d5e4f8'
+  secondary-fixed-dim: '#b9c8db'
+  on-secondary-fixed: '#0e1d2b'
+  on-secondary-fixed-variant: '#3a4858'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  margin: 2rem
+  gutter-mobile: 0.75rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system embodies high-efficiency minimalism infused with an approachable, modern executive finish. Built for task-driven personal workflows, the interface eliminates cognitive clutter to induce focused productivity, clarity, and calm control. 
+
+The aesthetic is anchored in clean functionalism: abundant white space, refined micro-elevations, deliberate blue-spectrum accents, and crisp visual hierarchy. Interactions are swift and understated, offering tangible satisfaction through subtle state transformations without theatrical friction.
+
+## Colors
+
+The palette establishes an airy, clean environment through a carefully calibrated cool spectrum:
+
+- **Primary (`#2563EB` / `#1D4ED8`):** Directs the user's immediate attention to key actions, current filters, and critical interface anchors.
+- **Secondary (`#EFF6FF` / `#DBEAFE`):** Serves as contextual highlighting, hover fills, active tab backgrounds, and selected card states.
+- **Success Accent (`#10B981`):** Celebrates completion events, task checkboxes, and progress indicators with an uplifting, crisp emerald tone.
+- **Destructive Accent (`#EF4444`):** Flags deletion thresholds, overdue indicators, and high-urgency alerts.
+- **Neutrals & Canvas:** 
+  - Base canvas: `#FFFFFF` (Pure white for elevated cards and foreground containers).
+  - Background surface: `#F8FAFC` (Cool slate tint providing seamless contrast against pure white cards).
+  - Borders & Dividers: `#E2E8F0` (Whisper-thin, non-distracting containment lines).
+  - Text Hierarchy: `#0F172A` (Primary titles), `#334155` (Body text), `#64748B` (Metadata and helper labels).
+
+## Typography
+
+The type system is unified through Plus Jakarta Sans, combining modern geometric legibility with gentle humanistic curves. 
+
+- Use `headline-xl` and `headline-lg` exclusively for dashboard views, project headers, and view titles.
+- Set standard task titles with `body-lg` or `label-lg` depending on actionable priority.
+- Apply `label-sm` with upper-case styling and positive letter-spacing (`0.04em`) for metadata, deadlines, tag categories, and status indicators.
+
+## Layout & Spacing
+
+The layout is grounded in a fluid grid adapting from an expansive desktop dashboard to a compact, thumb-accessible mobile experience:
+
+- **Desktop (1024px+):** Fixed collapsible sidebar navigation (260px) paired with an 8-column main content grid (`gutter: 1.5rem`, `margin: 2rem`). Content max-width is constrained to `1200px` for optimal reading scan lines.
+- **Tablet (768px - 1023px):** Collapsed icon-based rail navigation, 6-column fluid canvas with `1.5rem` margins.
+- **Mobile (< 767px):** Full-bleed single-column layout, bottom persistent navigation bar, reduced outer margins (`1rem`), and tighter gutters (`0.75rem`).
+- **Vertical Rhythm:** Consistent multi-step scaling based on `0.25rem` intervals preserves visual balance between subtasks, metadata icons, and interactive rows.
+
+## Elevation & Depth
+
+Visual hierarchy uses ambient micro-elevations, pristine boundaries, and low-contrast borders instead of heavy, opaque shadows:
+
+- **Level 0 (Base):** `#F8FAFC` flat surface for canvas backing and side panels.
+- **Level 1 (Card Rest):** `#FFFFFF` surface accompanied by a hairline border (`1px solid #E2E8F0`) and an ambient glow: `box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.04)`.
+- **Level 2 (Hover & Active Drag):** Slight elevation on pointer interaction: `box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.06), 0 4px 6px -4px rgba(15, 23, 42, 0.04)`, accompanied by subtle border tinting (`#DBEAFE`).
+- **Level 3 (Modals & Overlays):** `box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)` over a frosted, semi-transparent backdrop (`rgba(15, 23, 42, 0.3)` with `backdrop-filter: blur(4px)`).
+
+## Shapes
+
+The design uses balanced, rounded contours to soften functional data density:
+
+- Default buttons, input fields, checkboxes, and task tiles use `rounded` (0.5rem / 8px).
+- High-level containers, grouped project lists, and modal sheets adopt `rounded-lg` (1rem / 16px) or `rounded-xl` (1.5rem / 24px).
+- Category badges, status indicators, and avatar icons adopt full pill curvature (`9999px`) to separate metadata from rectangular interactive task blocks.
+
+## Components
+
+### Buttons
+- **Primary:** Solid `#2563EB` fill with `#FFFFFF` text. Hover shifts to `#1D4ED8`. Active state scales subtly (`scale: 0.98`). Focus-visible displays an external ring: `2px solid #FFFFFF, 2px solid #2563EB`.
+- **Secondary:** Surface `#EFF6FF` with text `#1D4ED8`. Hover shifts to `#DBEAFE`.
+- **Ghost/Tertiary:** Transparent fill, `#334155` text. Hover initiates `#F1F5F9` background.
+- **Destructive:** `#EF4444` background, `#FFFFFF` text. Used for irreversible actions.
+
+### Checkboxes (Task Completion)
+- Outer box: 20px x 20px with `rounded` (6px) geometry and `1.5px solid #CBD5E1` border.
+- Hover: Border shifts to `#2563EB`.
+- Checked: Transition to `#10B981` background and border, featuring an animated white checkmark glyph. Completed sibling task text automatically strikes through with `#64748B` color shift.
+
+### Input Fields & Quick-Add Bar
+- Canvas of `#FFFFFF`, `1px solid #E2E8F0` border, `0.5rem` internal padding.
+- Focused state eliminates generic outline in favor of a crisp `1px solid #2563EB` paired with an ambient ring: `0 0 0 3px rgba(37, 99, 235, 0.12)`.
+- Quick-add inputs feature integrated trailing action chips (due dates, priority flags) for rapid keyboard-first entry.
+
+### Cards & Task Rows
+- Independent task cards use a `#FFFFFF` fill with `1px solid #E2E8F0` framing.
+- Hover dynamically reveals secondary inline utilities (drag handle, delete, sub-actions) while slightly transitioning border color to `#CBD5E1`.
+- Selected/editing cards carry a faint left border accent (`3px solid #2563EB`).
+
+### Chips & Tags
+- Pill-shaped container (`border-radius: 9999px`) with padding `2px 8px`.
+- High priority: `#FEE2E2` fill with `#B91C1C` text.
+- Routine tag: `#F1F5F9` fill with `#475569` text.
+- Project category: `#EFF6FF` fill with `#1D4ED8` text.
+
+### Empty States & Dialogs
+- Centered layout, light monochromatic illustration with `#DBEAFE` and `#2563EB` lines, clear title in `headline-sm`, and an immediate primary call-to-action button.
